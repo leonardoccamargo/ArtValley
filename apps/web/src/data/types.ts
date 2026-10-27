@@ -6,8 +6,12 @@ export type Asset = {
   description: string;
   category: AssetCategory;
   tags: string[];
-  /** Caminho público do arquivo .bbmodel (Blockbench). */
-  modelUrl: string;
+  /**
+   * Arquivo .bbmodel público usado só na prévia 3D (fictício por enquanto).
+   * O arquivo vendido deve ficar em armazenamento privado e ser liberado
+   * apenas após a compra (Fase 3).
+   */
+  previewModelUrl: string;
   /** Preço em centavos; `null` quando o asset só existe como portfólio. */
   priceCents: number | null;
   likes: number;
