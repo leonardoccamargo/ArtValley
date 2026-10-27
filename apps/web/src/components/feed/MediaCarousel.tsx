@@ -51,6 +51,7 @@ function ControlButton({
 
 export function MediaCarousel({ post, asset }: { post: Post; asset: Asset }) {
   const scroller = useRef<HTMLDivElement>(null);
+  const videos = useRef<(HTMLVideoElement | null)[]>([]);
   const [index, setIndex] = useState(0);
   const [atStart, setAtStart] = useState(true);
   const [animation, setAnimation] = useState<MannequinAnimation>("idle");
@@ -59,6 +60,12 @@ export function MediaCarousel({ post, asset }: { post: Post; asset: Asset }) {
   const slideCount = post.media.length + 1;
   const show3D = near && atStart;
   const poster = post.media.find((m) => m.type === "image")?.src;
+
+  useEffect(() => {
+    videos.current.forEach((video, i) => {
+      if (video && (!near || index !== i + 1)) video.pause();
+    });
+  }, [index, near]);
 
   function goTo(i: number) {
     const el = scroller.current;
@@ -116,6 +123,9 @@ export function MediaCarousel({ post, asset }: { post: Post; asset: Asset }) {
               <img src={media.src} alt={media.alt} className="size-full object-cover" draggable={false} />
             ) : (
               <video
+                ref={(el) => {
+                  videos.current[i] = el;
+                }}
                 src={media.src}
                 poster={media.poster}
                 className="size-full object-cover"
