@@ -39,3 +39,19 @@ export type Artist = {
   specialties: string[];
   reviews: Review[];
 };
+
+export type PostMedia =
+  | { type: "image"; src: string; alt: string }
+  | { type: "video"; src: string; poster: string };
+
+/** Publicação do feed. O 1º slide é sempre a prévia 3D do asset; depois vêm as mídias. */
+export type Post = {
+  id: string;
+  artistHandle: string;
+  assetSlug: string;
+  publishedAt: string;
+  caption: string;
+  media: PostMedia[];
+  likes: number;
+  comments: number;
+};
