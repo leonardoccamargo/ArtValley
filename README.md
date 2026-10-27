@@ -33,7 +33,7 @@ pnpm typecheck  # verificação de tipos (TypeScript)
 
 ## Dados de exemplo
 
-Enquanto não há backend, o site usa dados fictícios em `apps/web/src/data/` e modelos de exemplo em `apps/web/public/models/`. Os modelos são gerados por:
+Enquanto não há backend, o site usa dados fictícios em `apps/web/src/data/` e modelos de exemplo em `apps/web/content/models/` (pasta privada, nunca servida publicamente). Os modelos são gerados por:
 
 ```bash
 cd apps/web && node scripts/generate-sample-models.mjs

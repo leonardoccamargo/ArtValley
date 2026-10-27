@@ -104,7 +104,7 @@
         }
       },
       "type": "cube",
-      "uuid": "a05f0dad-d48d-4c50-8a71-4affb7423ee6"
+      "uuid": "24586f7a-d2f8-4046-82a2-9a50317bf7a7"
     },
     {
       "name": "membrana_esquerda",
@@ -190,7 +190,7 @@
         }
       },
       "type": "cube",
-      "uuid": "734f7740-7ea4-4b30-b7db-31374bc625e5"
+      "uuid": "98eb6a40-f822-4cd9-8e94-18222573a983"
     },
     {
       "name": "osso_direito",
@@ -276,7 +276,7 @@
         }
       },
       "type": "cube",
-      "uuid": "ab919afe-9765-4186-8f5f-3c0e9b448035"
+      "uuid": "265b1516-e8f2-4ddf-a2c5-c000fd1f3d14"
     },
     {
       "name": "membrana_direita",
@@ -362,7 +362,7 @@
         }
       },
       "type": "cube",
-      "uuid": "eddc2f91-ae90-4fa9-8625-4aec9301e9ec"
+      "uuid": "189e7a31-4722-428a-accd-204eef88a9b6"
     }
   ],
   "outliner": [
@@ -374,15 +374,15 @@
         2
       ],
       "color": 0,
-      "uuid": "ab6478b4-e83b-4639-aa1d-8a05507c792b",
+      "uuid": "14ed4f1a-b242-4577-a8cc-149fc109f337",
       "export": true,
       "isOpen": true,
       "locked": false,
       "visibility": true,
       "autouv": 0,
       "children": [
-        "a05f0dad-d48d-4c50-8a71-4affb7423ee6",
-        "734f7740-7ea4-4b30-b7db-31374bc625e5"
+        "24586f7a-d2f8-4046-82a2-9a50317bf7a7",
+        "98eb6a40-f822-4cd9-8e94-18222573a983"
       ]
     },
     {
@@ -393,15 +393,15 @@
         2
       ],
       "color": 0,
-      "uuid": "ff0e0053-3059-40c4-a20b-4f73ac348a35",
+      "uuid": "dd090440-97f8-46ce-a4b1-13fe2d549d38",
       "export": true,
       "isOpen": true,
       "locked": false,
       "visibility": true,
       "autouv": 0,
       "children": [
-        "ab919afe-9765-4186-8f5f-3c0e9b448035",
-        "eddc2f91-ae90-4fa9-8625-4aec9301e9ec"
+        "265b1516-e8f2-4ddf-a2c5-c000fd1f3d14",
+        "189e7a31-4722-428a-accd-204eef88a9b6"
       ]
     }
   ],
@@ -421,7 +421,7 @@
       "visible": true,
       "mode": "bitmap",
       "saved": true,
-      "uuid": "b3cb2e3c-960d-4f02-9ed9-ebebe2ba12b2",
+      "uuid": "c582279e-fb40-4189-9d79-ad7b679c1362",
       "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAyElEQVR4nJ2TMQoCMRBF/6EEQRA8kpXVVlbew9bCxsbCStjOTrAVbAVbCxl5RUKcQMhYLGze/swkj1nttw8bZk/bLMxW07ut529bTq52PnwqRu42/jLxAiBMAHg5WcXIHXeviokgCz4A6OwZG9jsGTkB0sPxynUPF5WoyIIOVE2MEI48I8eJYIoIS7LZnCVGhJGjaFNiSxjXaUr8R6QiwkpGDneKCCsnFnd5EnuFJdl0zhIjwshRtCkxKlIRYZ7lSewV5n97rvkF/ufJIbJGEHsAAAAASUVORK5CYII="
     }
   ]

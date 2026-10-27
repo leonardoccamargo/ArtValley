@@ -6,7 +6,7 @@ import { deflateSync } from "node:zlib";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const outDir = join(dirname(fileURLToPath(import.meta.url)), "..", "public", "models");
+const outDir = join(dirname(fileURLToPath(import.meta.url)), "..", "content", "models");
 
 const crcTable = Array.from({ length: 256 }, (_, n) => {
   let c = n;
@@ -195,5 +195,5 @@ const samples = {
 
 for (const [file, data] of Object.entries(samples)) {
   writeFileSync(join(outDir, `${file}.bbmodel`), JSON.stringify(data, null, 2) + "\n");
-  console.log(`gerado: public/models/${file}.bbmodel`);
+  console.log(`gerado: content/models/${file}.bbmodel`);
 }
