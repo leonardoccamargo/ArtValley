@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "Capa Real",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {},
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "tecido",
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "from": [
+        -5,
+        6,
+        2
+      ],
+      "to": [
+        5,
+        24,
+        3
+      ],
+      "autouv": 0,
+      "color": 0,
+      "origin": [
+        0,
+        24,
+        2
+      ],
+      "rotation": [
+        8,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "06e9ca6d-a7e1-4448-94db-cb6b9bf6044a"
+    },
+    {
+      "name": "gola",
+      "box_uv": false,
+      "rescale": false,
+      "locked": false,
+      "from": [
+        -5,
+        23,
+        -3
+      ],
+      "to": [
+        5,
+        25,
+        3
+      ],
+      "autouv": 0,
+      "color": 0,
+      "origin": [
+        0,
+        24,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "3ef7daf4-a8d0-4d46-9496-a8f3a66a6576"
+    }
+  ],
+  "outliner": [
+    {
+      "name": "capa",
+      "origin": [
+        0,
+        24,
+        2
+      ],
+      "color": 0,
+      "uuid": "b4037af2-9b93-47ce-ae87-60259eb707ea",
+      "export": true,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "children": [
+        "06e9ca6d-a7e1-4448-94db-cb6b9bf6044a",
+        "3ef7daf4-a8d0-4d46-9496-a8f3a66a6576"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "capa_real.png",
+      "folder": "",
+      "namespace": "",
+      "id": "0",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "6ba14076-b7a0-4bf6-a0b3-3cf493132045",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAxElEQVR4nJ2TQQqDMBBF5xqiYpFSvLmbLrrpoquCO6Erj9AD9AIuprxCQjqBkHEhmOfPTPIY5X096aPr9DUMemtbXfpe56bR/XnOGDndpj8mvAAIEwDqeskYuc99zJgQZMEHAJ0tYwObLSMngPBwvHRdw4VKVGRBB6oGRghHlpHjRDDxCAuy2RwleoSRo2hRYkkY1ylKPCJSPMJSRg534hGWTizu4iTWCguy6RwleoT9xnybyhK9IsUjzLI4ibXC7G/PNb8J4BpwIFM1JwAAAABJRU5ErkJggg=="
+    }
+  ]
+}
