@@ -38,3 +38,7 @@ Enquanto não há backend, o site usa dados fictícios em `apps/web/src/data/` e
 ```bash
 cd apps/web && node scripts/generate-sample-models.mjs
 ```
+
+O navegador nunca recebe o `.bbmodel` original: a rota `GET /api/previews/[slug]` lê o arquivo privado no servidor e devolve só os cubos e a textura usados na prévia 3D (`apps/web/src/lib/bbmodel.server.ts`).
+
+As fotos e o vídeo de exemplo do feed ficam em `apps/web/public/media/posts/` e foram renderizados a partir dos próprios modelos.

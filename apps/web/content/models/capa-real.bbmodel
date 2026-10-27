@@ -43,7 +43,7 @@
         2
       ],
       "rotation": [
-        8,
+        -8,
         0,
         0
       ],
@@ -104,7 +104,7 @@
         }
       },
       "type": "cube",
-      "uuid": "06e9ca6d-a7e1-4448-94db-cb6b9bf6044a"
+      "uuid": "5f78f7c9-2796-485b-af0a-037e140758af"
     },
     {
       "name": "gola",
@@ -185,7 +185,7 @@
         }
       },
       "type": "cube",
-      "uuid": "3ef7daf4-a8d0-4d46-9496-a8f3a66a6576"
+      "uuid": "8fce23c4-7382-4460-a80c-438ebcf6888f"
     }
   ],
   "outliner": [
@@ -197,15 +197,15 @@
         2
       ],
       "color": 0,
-      "uuid": "b4037af2-9b93-47ce-ae87-60259eb707ea",
+      "uuid": "634f638c-30d2-4bab-809a-a67eba8d94a7",
       "export": true,
       "isOpen": true,
       "locked": false,
       "visibility": true,
       "autouv": 0,
       "children": [
-        "06e9ca6d-a7e1-4448-94db-cb6b9bf6044a",
-        "3ef7daf4-a8d0-4d46-9496-a8f3a66a6576"
+        "5f78f7c9-2796-485b-af0a-037e140758af",
+        "8fce23c4-7382-4460-a80c-438ebcf6888f"
       ]
     }
   ],
@@ -225,7 +225,7 @@
       "visible": true,
       "mode": "bitmap",
       "saved": true,
-      "uuid": "6ba14076-b7a0-4bf6-a0b3-3cf493132045",
+      "uuid": "f2458197-ea03-46cf-a041-0e0ac769d43b",
       "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAxElEQVR4nJ2TQQqDMBBF5xqiYpFSvLmbLrrpoquCO6Erj9AD9AIuprxCQjqBkHEhmOfPTPIY5X096aPr9DUMemtbXfpe56bR/XnOGDndpj8mvAAIEwDqeskYuc99zJgQZMEHAJ0tYwObLSMngPBwvHRdw4VKVGRBB6oGRghHlpHjRDDxCAuy2RwleoSRo2hRYkkY1ylKPCJSPMJSRg534hGWTizu4iTWCguy6RwleoT9xnybyhK9IsUjzLI4ibXC7G/PNb8J4BpwIFM1JwAAAABJRU5ErkJggg=="
     }
   ]

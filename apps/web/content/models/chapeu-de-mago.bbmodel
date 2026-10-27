@@ -99,7 +99,7 @@
         }
       },
       "type": "cube",
-      "uuid": "7aa8d4ad-09bf-49d8-a6dd-ea24f0c881f2"
+      "uuid": "98b90228-bc5a-4eb1-999f-bb4ba30741f1"
     },
     {
       "name": "base",
@@ -180,7 +180,7 @@
         }
       },
       "type": "cube",
-      "uuid": "8d5a5277-b492-46ff-b5ce-163ae58c9978"
+      "uuid": "742f142f-feb8-4909-bc57-b4b602b745a1"
     },
     {
       "name": "meio",
@@ -266,7 +266,7 @@
         }
       },
       "type": "cube",
-      "uuid": "61ee9a77-d918-463d-810d-2196c65f43a9"
+      "uuid": "b5b1ad2b-1ee3-4b2f-878c-67e9718205c2"
     },
     {
       "name": "ponta",
@@ -352,7 +352,7 @@
         }
       },
       "type": "cube",
-      "uuid": "a7fa8a54-c9f8-4ad1-afc8-a97b94392608"
+      "uuid": "b6dd7e87-d9f8-4e5f-8ed3-33e1ba356231"
     }
   ],
   "outliner": [
@@ -364,17 +364,17 @@
         0
       ],
       "color": 0,
-      "uuid": "c5dab490-7822-47d5-853f-06ba56f21a05",
+      "uuid": "717dab68-e665-4454-811c-387de8e02719",
       "export": true,
       "isOpen": true,
       "locked": false,
       "visibility": true,
       "autouv": 0,
       "children": [
-        "7aa8d4ad-09bf-49d8-a6dd-ea24f0c881f2",
-        "8d5a5277-b492-46ff-b5ce-163ae58c9978",
-        "61ee9a77-d918-463d-810d-2196c65f43a9",
-        "a7fa8a54-c9f8-4ad1-afc8-a97b94392608"
+        "98b90228-bc5a-4eb1-999f-bb4ba30741f1",
+        "742f142f-feb8-4909-bc57-b4b602b745a1",
+        "b5b1ad2b-1ee3-4b2f-878c-67e9718205c2",
+        "b6dd7e87-d9f8-4e5f-8ed3-33e1ba356231"
       ]
     }
   ],
@@ -394,7 +394,7 @@
       "visible": true,
       "mode": "bitmap",
       "saved": true,
-      "uuid": "d2943541-8fd2-4b4c-badc-2a404343761c",
+      "uuid": "14dcbb8c-e4dc-4422-a3e5-2ee13e906841",
       "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAxUlEQVR4nJ2TsQrCMBCG7x20LYiVPo2Dg4ODz+rcWVdxbOneB3A5+YSEeIGQcyg0X//cJR9XmW8b7c8vHa6r7k8PPVwW3R1Hfd+bjJHTqfthwguAMAGgPtuMkVvHbcaEIAs+AOhsGRvYbBk5AYSH46XrGi5UoiILOlA1MEI4sowcJ4KJR1iQzeYo0SOMHEWLEkvCuE5R4j8ixSMsZeRwJx5h6cTiLk5irbAgm85RokfYd8ynrizRK1I8wiyLk1grzP72XPMDl1JfvzeNL/gAAAAASUVORK5CYII="
     }
   ]
