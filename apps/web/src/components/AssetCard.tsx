@@ -1,20 +1,12 @@
 import type { Asset } from "@/data/types";
 import { formatBRL, formatCompact } from "@/lib/format";
+import { AssetPreview } from "./AssetPreview";
 
 export function AssetCard({ asset }: { asset: Asset }) {
-  const [primary, secondary] = asset.palette;
-
   return (
-    <article className="flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-zinc-900">
-      <div
-        className="flex aspect-square items-end p-3"
-        style={{ background: `linear-gradient(135deg, ${primary}, ${secondary})` }}
-      >
-        <span className="rounded-full bg-black/50 px-2 py-0.5 text-xs text-white">
-          Prévia 3D em breve
-        </span>
-      </div>
-      <div className="flex flex-1 flex-col gap-2 p-4">
+    <article className="flex flex-col overflow-hidden rounded-2xl border border-white/10">
+      <AssetPreview asset={asset} />
+      <div className="flex flex-1 flex-col gap-2 bg-zinc-900 p-4">
         <h3 className="font-semibold text-white">{asset.title}</h3>
         <p className="text-sm text-zinc-400">{asset.description}</p>
         <ul className="flex flex-wrap gap-1.5">
