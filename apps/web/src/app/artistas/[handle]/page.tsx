@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { AssetCard } from "@/components/AssetCard";
 import { Rating } from "@/components/Rating";
+import { SharedCanvasLoader } from "@/components/three/SharedCanvasLoader";
 import { artists, getArtist } from "@/data/artists";
 import { getAssetsByArtist } from "@/data/assets";
 import { formatBRL, formatCompact, formatMonthYear } from "@/lib/format";
@@ -31,6 +32,7 @@ export default async function ArtistPage(props: PageProps<"/artistas/[handle]">)
 
   return (
     <main className="mx-auto flex w-full max-w-5xl flex-col gap-12 px-6 py-12">
+      <SharedCanvasLoader />
       <section className="flex flex-col gap-6 sm:flex-row sm:items-center">
         <div className="flex size-24 shrink-0 items-center justify-center rounded-3xl bg-gradient-to-br from-emerald-500 to-violet-600 text-3xl font-bold">
           {artist.name.charAt(0)}
